@@ -5,7 +5,7 @@
     import { SearchManuFacturerProps } from '../types';
     import { manufacturers } from '../constants';
 
-    const SearchManufacturer = ({ manufacturer, setManufacturer}: SearchManufacturerProps) => {
+    const SearchManufacturer = ({ manufacturer, setManuFacturer}: SearchManuFacturerProps) => {
 
     const [query, setQuery] = useState('');
     
@@ -23,7 +23,7 @@
 
     <div className='search-manufacturer'>
 
-        <Combobox value={manufacturer} onChange={setManufacturer}>
+        <Combobox value={manufacturer} onChange={setManuFacturer}>
             <div className='relative w-full'>
 
                 <Combobox.Button 
