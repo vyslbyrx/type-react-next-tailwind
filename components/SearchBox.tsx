@@ -70,7 +70,7 @@ const SearchBox = () => {
 
                     <SearchManufacturer
                        manufacturer= {manufacturer}
-                       setManufacturer={setManufacturer} 
+                       setManuFacturer={setManufacturer} 
                     />
                     
                     <SearchButton otherClasses="sm:hidden" />
