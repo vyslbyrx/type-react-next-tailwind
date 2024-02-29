@@ -59,7 +59,7 @@ const SearchBox = () => {
 
         router.push(newPathName);
 
-        console.log(window.location.pathname);
+ 
     }
 
     return (
